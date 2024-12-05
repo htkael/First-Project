@@ -1,72 +1,36 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
     height: 100vh;
     margin: 0
 }
 
-.top {
-    background-color: #1F2937;
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    justify-content: center;
-    gap: 32px;
-
+.one {
+    background-color: #1f2937;
 }
 
-.left {
+.header {
     display: flex;
-    flex-direction: column;
-    margin-left: 60px;
-    max-width: 400px;
+    justify-content: space-between;
+    padding: 21px;
+    margin-left: 175px;
+    margin-right: 175px;
 }
 
 .logo {
+    color: #f9faf8;
     font-size: 24px;
-    color: #F9F8FA;
     font-weight: 900;
-    margin-bottom: auto;
-}
-
-.head {
-    font-size: 48px;
-    color: #F9F8FA;
-    font-weight: 900;
-}
-
-.topbutton {
-    background-color: #3882F6;
-    color: #F9F8FA;
-    border: none;
-    width: 100px;
-    padding: 8x 16x;
-    margin-bottom: 100px;
-}
-
-.info {
-    font-size: 18px;
-    color: #e5e7eba3;
-}
-
-.right {
-    display: flex;
-    flex-direction: column;
-    margin-right: 60px;
-    max-width: 400px;
 }
 
 .list {
+    padding: 0;
+    margin: 0;
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    color: #e5e7eb;
     font-size: 18px;
-    color: #e5e7eb9b;
-    margin-top: auto;
-}
-
-img {
-    margin-bottom: 100px;
-    margin-top: 100px;
+    gap: 16px;
 }
