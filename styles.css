@@ -1,36 +1,32 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     flex-direction: column;
     height: 100vh;
-    margin: 0
+    margin: 0;
 }
 
 .one {
-    background-color: #1f2937;
+background-color: #1f2937;
+flex-grow: 5;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 21px;
-    margin-left: 175px;
-    margin-right: 175px;
+.two {
+background-color: #f9faf8;
+flex-grow: 4;
 }
 
-.logo {
-    color: #f9faf8;
-    font-size: 24px;
-    font-weight: 900;
+.three {
+background-color: #e5e7eb;
+flex-grow: 3;
 }
 
-.list {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    color: #e5e7eb;
-    font-size: 18px;
-    gap: 16px;
+.four {
+background-color: #f9faf8;
+flex-grow: 2;
+}
+
+.five {
+background-color: #1f2937;
+flex-grow: 1;
 }
